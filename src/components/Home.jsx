@@ -10,7 +10,7 @@ const Home = () => {
         <Link to='/top'>Top Headline of india</Link>
         <Link to='/marathi'>Top Headline of India in Marathi</Link>
         <Link to='/education'>Education News</Link>
-        <Link to='/sport'>Sport News</Link>
+        {/* <Link to='/sport'>Sport News</Link> */}
       </div>
     </div>
   )
