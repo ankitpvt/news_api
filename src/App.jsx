@@ -25,7 +25,7 @@
 
 import React from "react";
 import NewsList from "./components/newList" // Ensure file name case matches the import
-import Sport from "./components/sport"; // Ensure file name case matches the import
+// import Sport from "./components/sport"; // Ensure file name case matches the import
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
@@ -39,7 +39,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<NewsList />} />
-          <Route path="/sport" element={<Sport />} />
+          {/* <Route path="/sport" element={<Sport />} /> */}
         </Routes>
       </main>
 
